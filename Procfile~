@@ -1,0 +1,2 @@
+web: gunicorn Flaskr:app --log-file=-
+worker: python worker.py
